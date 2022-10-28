@@ -10,25 +10,14 @@
 
 <body>
     <form action="skript.php" method="post">
-        <?php
-        session_start();
-        ?>
-        <!DOCTYPE html>
-        <html>
+        Username:<br>
+        <input type="text" name="username">
+        <br>
+        Password:<br>
+        <input type="password" name="password">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
 
-        <body>
-
-            <?php
-            // remove all session variables
-            session_unset();
-
-            // destroy the session
-            session_destroy();
-
-            ?>
-
-
-
-        </body>
-
-        </html>
+</html>
