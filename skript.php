@@ -51,6 +51,7 @@
         $_SESSION["username"] = $_POST["username"];
         echo "<form action='loggaut.php' method='post'> <input type='submit' value='logga ut'></form>";
     }
+
     ?>
 
 </body>
