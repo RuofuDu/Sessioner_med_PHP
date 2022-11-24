@@ -52,6 +52,8 @@
         echo "<form action='loggaut.php' method='post'> <input type='submit' value='logga ut'></form>";
     }
 
+    echo "<a href='http://localhost/webbservprogrammering_inl%C3%A4mningsuppgift/filuppladdning_med_PHP/filuppladdning_med_PHP.html'>Ladda upp fil</a>";
+
     ?>
 
 </body>
